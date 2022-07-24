@@ -1,0 +1,7 @@
+@mixin font( $valihan, $mambetov, $color) {
+    font-family: "Montserrat";
+    font-weight: $valihan;
+    font-size: $mambetov;
+
+    color: $color;
+}

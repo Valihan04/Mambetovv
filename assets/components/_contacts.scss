@@ -1,0 +1,98 @@
+.contacts {
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+    padding-top: 50px;
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    &__btn {
+        width: 270px;
+        height: 270px;
+        background: #2A2A2A;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+        border-radius: 29px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+        margin-right: 40px;  
+    }
+    &__btn1 {
+        width: 270px;
+        height: 270px;
+        background: #2A2A2A;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+        border-radius: 29px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+        margin-right: 40px;  
+    }
+    &__btn2 {
+        width: 270px;
+        height: 270px;
+        background: #2A2A2A;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+        border-radius: 29px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+        margin-right: 40px;  
+    }
+    &__btn3 {
+        width: 270px;
+        height: 270px;
+        background: #2A2A2A;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+        border-radius: 29px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+        margin-right: 40px;  
+    }
+    &__btn4 {
+        width: 270px;
+        height: 270px;
+        background: #2A2A2A;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+        border-radius: 29px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+        margin-right: 40px;  
+    }
+    &__btn:hover {
+        box-shadow: 4px 1px 76px 11px rgb(228, 64, 95);
+        transition: 0.5s;
+        background: rgb(228, 64, 95);
+    }
+    &__btn1:hover {
+        box-shadow: 4px 1px 76px 11px rgb(0, 136, 204);
+        transition: 0.5s;
+        background:rgb(0, 136, 204);
+    }
+    &__btn2:hover {
+        box-shadow: 4px 1px 76px 11px rgb(37, 211, 102);
+        transition: 0.5s;
+        background:rgb(37, 211, 102);
+    }
+    &__btn3:hover {
+        box-shadow: 4px 1px 76px 11px rgb(82,65,119);
+        transition: 0.5s;
+        background:rgb(82,65,119);
+    }
+    &__btn4:hover {
+        box-shadow: 4px 1px 76px 11px rgb(255,255,255);
+        transition: 0.5s;
+        background:rgb(255,255,255);
+    }
+
+    &__logo {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 40px;
+    }
+
+   
+    
+  
+    &__title {
+        @include font (300, 24px, #fff);
+        
+    }
+}

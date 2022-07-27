@@ -6,6 +6,13 @@
             justify-content: center;
 
         }
+        &__right {
+            margin-top: -80px;
+            margin-bottom:-150px;
+        }
+        &__left {
+            margin-bottom: 40px;
+        }
         
     }
 }
@@ -43,7 +50,7 @@
         }
         &__subtitle {
             @include font (300, 30px, #fff); 
-            margin-top: -30px;
+            
         }
     }
     .port {

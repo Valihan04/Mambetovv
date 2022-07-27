@@ -333,6 +333,13 @@ li {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .hero__right {
+    margin-top: -80px;
+    margin-bottom: -150px;
+  }
+  .hero__left {
+    margin-bottom: 40px;
+  }
 }
 
 @media screen and (max-width: 533px) {
@@ -374,7 +381,6 @@ li {
     font-weight: 300;
     font-size: 30px;
     color: #fff;
-    margin-top: -30px;
   }
   .port__img {
     max-width: 100%;

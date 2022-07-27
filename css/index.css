@@ -326,8 +326,8 @@ li {
 
 @media screen and (max-width: 1031px) {
   .hero__content {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
     text-align: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;

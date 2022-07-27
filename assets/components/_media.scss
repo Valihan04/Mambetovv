@@ -1,9 +1,10 @@
 @media screen and (max-width:1031px) {
     .hero {
         &__content {
-            flex-wrap: wrap;
+            flex-wrap: wrap-reverse;
             text-align: center;
             justify-content: center;
+
         }
         
     }
